@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminHome"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/btnConectar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:onClick="onClickStart"
+            android:layout_marginBottom="15dp"
+            android:text="@string/connect"
+            android:background="@drawable/buttons"/>
+
+        <com.spark.submitbutton.SubmitButton
+            android:id="@+id/btnMedidaAnim"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:text="@string/lbl_titulo"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            app:sub_btn_background="@color/rojo_light_2"
+            app:sub_btn_duration="5000"
+            app:sub_btn_line_color="@color/rojo_dark"
+            app:sub_btn_ripple_color="@color/white"
+            app:sub_btn_tick_color="@color/white" />
+
+
+        <TextView
+            android:id="@+id/txtReceive"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:background="#eeeeee"
+            android:gravity="center"
+            android:hint="@string/msj_arduino"
+            android:padding="20dp"
+            android:scrollbars="vertical"
+            android:textSize="36sp"
+            android:typeface="monospace"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>

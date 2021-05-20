@@ -1,0 +1,2 @@
+rootProject.name = "Heart Rate Monitor2"
+include ':app'

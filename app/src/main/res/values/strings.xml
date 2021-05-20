@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Heart Rate Monitor</string>
+
+    <string name="lbl_idioma">Choose a language</string>
+
+    <string name="btn_registrarPantalla">Registrar</string>
+    <string name="btn_loginPantalla">Iniciar sesión</string>
+
+    <string name="campo_email">Escribe tu correo electrónico</string>
+    <string name="campo_contrasena">Escribe tu contraseña</string>
+    <string name="campo_repetirContra">Escribe nuevamente tu contraseña</string>
+    <string name="txt_email">Correo electrónico</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="btn_entrar">Entrar</string>
+
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_correo">Correo electrónico</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="txt_confirmar">Confirmar contraseña</string>
+    <string name="btn_crear">Crear cuenta</string>
+
+    <string name="txt_linkRegistrar">¿No tienes cuenta? Registrarse</string>
+    <string name="txt_linkIniciar">¿Ya tienes cuenta? Ingresar</string>
+
+    <string name="txt_ConfirmarRegistro">Para terminar de crear la cuenta, pase a revisar la bandeja de entrada de su
+        correo electrónico para verificar su cuenta. Posteriormente, ingrese con su correo electronico y contraseña registrados</string>
+
+    <string name="btn_entendido">De acuerdo</string>
+
+    // Pantalla principal
+    <string name="lbl_titulo">Medida</string>
+    <string name="txt_instrucciones">Para comenzar con la medición, presione aquí</string>
+    <string name="lbl_titulo2">Contacto de emergencia</string>
+    <string name="lbl_titulo3">Historial</string>
+    <string name="lbl_titulo4">Información</string>
+    <string name="lbl_titulo5">Perfil</string>
+    <string name="lbl_titulo6">Tutorial</string>
+    <string name="lbl_titulo7">Ajustes</string>
+    <string name="lbl_titulo8">Ayuda</string>
+    <string name="lbl_titulo9">Contáctenos</string>
+    <string name="lbl_logout">Cerrar sesión</string>
+
+
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="nombreCompleto">Escribe tu nombre completo</string>
+    <string name="lbl_tipoUser">¿Qué uso le dará a la app?</string>
+    <string name="op_usuario1">Cuento con un chaleco HeartRateMonitor</string>
+    <string name="op_usuario2">Monitorear la salud de familiar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="gender">Género</string>
+    <string name="edad">Edad</string>
+    <string name="restablecer">Restablecer contraseña</string>
+
+    <string-array name="op_genero">
+        <item>Seleccione</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="op_usuario">
+        <item>Seleccione</item>
+        <item>Admin</item>
+        <item>Users</item>
+    </string-array>
+
+    <string name="lbl_restablecer_msg">Favor de verificar su correo</string>
+    <string name="tel_emergencia">Teléfono</string>
+    <string name="dispositivos">Dispositivos Vinculados</string>
+    <string name="msj_espera">Por favor, espere</string>
+    <string name="msj_verificar">Correo electrónico no verificado</string>
+    <string name="tipo_usuario">Tipo de usuario</string>
+    <string name="search">Buscar</string>
+    <string name="connect">Conectar</string>
+    <string name="guardar">Guardar</string>
+    <string name="pass_no_match">Las contraseñas no coinciden</string>
+    <string name="create_Account">Creando cuenta</string>
+    <string name="msj_espera2">Por favor espere mientras validamos sus credenciales</string>
+    <string name="msj_password">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="campos_complete">Debe completar todos los campos</string>
+    <string name="user_Registro">Usuario registrado, por favor revisa tu e-mail.</string>
+    <string name="datos_incorrectos">No se registraron los datos correctamente</string>
+    <string name="no_registro_user">No se pudo registrar el usuario</string>
+    <string name="forget_pass">¿Has olvidado tu contraseña?</string>
+    <string name="remember">Recordarme</string>
+    <string name="cargar">Cargando información</string>
+    <string name="msj_error_login">Verificar bien los datos o el tipo de usuario</string>
+    <string name="msj_arduino">Mensaje</string>
+    <string name="fecha">Fecha</string>
+    <string name="time">Hora</string>
+    <string name="latidos">Medición</string>
+    <string name="Info_guardar">La información se guardo correctamente</string>
+    <string name="msj_texto_emergencia">Se detectó una situación de emergencia en el ECG del paciente.</string>
+    <string name="msj_bienvenida_app">Bienvenid@ a Heart Rate Monitor</string>
+    <string name="msj_bienvenida_exp">Coloque los electrodos en la posición indicada, y cuando esté listo, comience el análisis.</string>
+    <string name="txt_info_bajo">Su ritmo cardiaco está por debajo del rango definido como normal, usted podría estar sufriendo una bradicardia. Se enviará un SMS a su contacto de emergencia registrado.</string>
+    <string name="txt_info_normal">Su ritmo cardiaco se encuentra dentro del rango definido como normal.</string>
+    <string name="txt_info_alto">Su ritmo cardiaco está por encima del rango definido como normal, usted podría estar sufriendo una taquicardia. Se enviará un SMS a su contacto de emergencia registrado.</string>
+    <string name="correo_invalido">Correo inválido</string>
+    <string name="id_admin">Escribe ID de usuario con chaleco</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="share_id">Comparte tu ID para que un familiar pueda monitorear tu ritmo cardiaco en tiempo real.</string>
+    <string name="share_msj">Te comparto mi ID para que puedas monitorear mi ritmo cardiaco en tiempo real.</string>
+    <string name="share_msj_2">Compartir</string>
+    <string name="settings_option1">¿Cómo tomar la medición de mi ritmo cardiaco con el chaleco?</string>
+    <string name="settings_option2">¿Cómo tomar la medición de mi ritmo cardiaco en la aplicación?</string>
+    <string name="info_option1">Asegura que tu chaleco este bien ajustado, posteriormente conecta los electrodos. Recuerda el color rojo va conectado cerca del hombro derecho, el color amarillo cerca del hombro izquierdo y el color verde cerca de la costilla derecha.</string>
+    <string name="info_option2">Recuerda que para tomar la medición del ritmo cardiaco debes contar con el chaleco Heart Rate Monitor. En la opción Medida del menú de navegación inferior presiona el botón Conectar para establecer la conexión bluetooth entre el chaleco y la app. Autoriza los permisos para realizar la conexión bluetooth. Presiona el botón Medida y espera que se tome la medición. Presiona el botón ubicado en la aprte inferior derecha. Listo, podrás ver en tu historial tu resultado de la medición de ritmo cardiaco.</string>
+    <string name="settings_option3">¿Qué es el ritmo cardiaco?</string>
+    <string name="info_option3">La frecuencia cardíaca es uno de los “signos vitales” o los indicadores importantes de la salud en el cuerpo humano. Mide la cantidad de veces por minuto que el corazón se contrae o late.  La velocidad de los latidos del corazón varía como resultado de la actividad física, las amenazas a la seguridad y las respuestas emocionales. La frecuencia cardíaca en reposo es la que tiene una persona cuando está relajada. Después de los 10 años, la frecuencia cardíaca de una persona debe estar entre 60 y 100 latidos por minuto mientras está en reposo.</string>
+    <string name="lbl_idioma2">Elige idioma</string>
+
+</resources>

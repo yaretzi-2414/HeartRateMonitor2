@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Heart Rate Monitor</string>
+    <string name="lbl_idioma">Choose a language</string>
+    <string name="btn_registrarPantalla">Sign up</string>
+    <string name="btn_loginPantalla">Log In</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_entrar">Get In</string>
+    <string name="txt_nombre">Name</string>
+    <string name="txt_edad">Date of Birth</string>
+    <string name="txt_correo">Email</string>
+    <string name="txt_contrasena">Password</string>
+    <string name="txt_confirmar">Confirm password</string>
+    <string name="btn_crear">Create account</string>
+    <string name="txt_linkRegistrar">Sign up</string>
+    <string name="txt_linkIniciar">Log In</string>
+    <string name="txt_ConfirmarRegistro">Your account has been successfully registered. To complete the process please check your email for a validation request.</string>
+    <string name="btn_entendido">OK</string>
+    <string name="campo_email">Email</string>
+    <string name="campo_contrasena">Password</string>
+    <string name="campo_repetirContra">Confirm password</string>
+    <string name="lbl_titulo">Measure</string>
+    <string name="txt_instrucciones">Tap here to start</string>
+    <string name="lbl_titulo2">Emergency Contact</string>
+    <string name="lbl_titulo3">History</string>
+    <string name="lbl_titulo5">Profile</string>
+    <string name="lbl_titulo6">Tutorial</string>
+    <string name="lbl_titulo7">Configuration</string>
+    <string name="lbl_titulo8">Help</string>
+    <string name="lbl_titulo9">Contact us</string>
+    <string name="lbl_logout">Log out</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_titulo4">Information</string>
+    <string name="nombreCompleto">Full Name</string>
+    <string name="lbl_tipoUser">How will you use the app?</string>
+    <string name="op_usuario1">I have a HeartRateMonitor vest</string>
+    <string name="op_usuario2">Monitor family health</string>
+    <string name="actualizar">Update</string>
+
+    <string-array name="op_genero">
+        <item>Choose</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="gender">Gender</string>
+    <string name="edad">Age</string>
+    <string name="restablecer">Restore password</string>
+    <string name="lbl_restablecer_msg">" Please verify your email "</string>
+    <string name="tel_emergencia">Phone</string>
+    <string name="dispositivos">Paired devices</string>
+    <string name="msj_espera">Please, wait</string>
+    <string name="msj_verificar">Email not verified</string>
+    <string name="tipo_usuario">Type of user</string>
+    <string name="search">Search</string>
+    <string name="connect">Connect</string>
+    <string name="guardar">Save</string>
+    <string name="pass_no_match">" Passwords do not match"</string>
+    <string name="create_Account">Creating account</string>
+    <string name="msj_espera2">Please wait, while we validate your credentials.</string>
+    <string name="msj_password">The password must be at least 6 characters</string>
+    <string name="campos_complete">You must complete all the fields</string>
+    <string name="user_Registro">Registered user, please check your e-mail.</string>
+    <string name="datos_incorrectos">Data was not recorded correctly</string>
+    <string name="no_registro_user">User could not be registered</string>
+    <string name="forget_pass">Forgot password?</string>
+    <string name="remember">Remember me</string>
+    <string name="cargar">Loading information</string>
+    <string name="msj_error_login">Verify either the data or the type of user</string>
+    <string name="msj_arduino">Message shows up here ...</string>
+    <string name="latidos">Measure</string>
+    <string name="time">Time</string>
+    <string name="fecha">Date</string>
+    <string name="Info_guardar">" information was saved correctly"</string>
+    <string name="msj_texto_emergencia">" An emergency situation was detected on the patient's ECG."</string>
+    <string name="msj_bienvenida_app">Welcome to Heart Rate Monitor</string>
+    <string name="msj_bienvenida_exp">Place the electrodes in the indicated position, and when you are ready, begin the analysis.</string>
+    <string name="txt_info_bajo">" Your heart rate is below the defined normal range, you could be suffering from bradycardia. An SMS will be sent to your registered emergency contact."</string>
+    <string name="txt_info_normal">" Your heart rate is within the range defined as normal."</string>
+    <string name="txt_info_alto">" Your heart rate is above the range defined as normal, you could be having a tachycardia. An SMS will be sent to your registered emergency contact."</string>
+    <string name="correo_invalido">Invalid email</string>
+    <string name="id_admin">User vest ID</string>
+    <string name="share_id">" Share your ID so a family member can monitor your heart rate in real time."</string>
+    <string name="share_msj">I share my ID with you so you can monitor my heart rate in real time.</string>
+    <string name="share_msj_2">Share</string>
+    <string name="settings_option1">" How to take my heart rate measurement with the vest?"</string>
+    <string name="settings_option2">How to take my heart rate measurement in the app?</string>
+    <string name="info_option1">Make sure your vest is tight, then connect the electrodes. Remember the red color is connected near the right shoulder, the yellow color near the left shoulder and the green color near the right rib.</string>
+    <string name="info_option2">Remember that to take a heart rate measurement you must have the Heart Rate Monitor vest. In the Measure option of the lower navigation menu, press the Connect button to establish the bluetooth connection between the vest and the app. Authorize the permissions to make the bluetooth connection. Press the Measure button and wait for the measurement to be taken. Press the button located in the lower right part. Ready, you can see your heart rate measurement result in your history.</string>
+    <string name="settings_option3">What is the heart rate?</string>
+    <string name="info_option3">Heart rate is one of the \"vital signs\" or important indicators of health in the human body. It measures the number of times per minute that the heart contracts or beats.  The speed of the heartbeat varies as a result of physical activity, threats to safety, and emotional responses. The resting heart rate is what a person has when they are relaxed. After age 10, a person\'s heart rate should be between 60 and 100 beats per minute while at rest.</string>
+    <string name="lbl_idioma2">Choose a language</string>
+
+</resources>

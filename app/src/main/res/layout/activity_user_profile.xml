@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/lbl_titulo5"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/rojo_light_2"
+        android:id="@+id/lbl_contacto"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        android:layout_below="@+id/lbl_contacto"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/txt_email_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rojo_dark"
+            android:padding="10dp"
+            android:textColorHint="@color/rojo_dark"
+            android:textStyle="bold"
+            android:text="@string/txt_correo" />
+
+        <TextView
+            android:id="@+id/email_user_info"
+            android:background="@drawable/input_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rojo_dark"
+            android:padding="10dp"
+            android:textColorHint="@color/rojo_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_name_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rojo_dark"
+            android:padding="10dp"
+            android:textColorHint="@color/rojo_dark"
+            android:textStyle="bold"
+            android:text="@string/txt_nombre" />
+
+        <TextView
+            android:id="@+id/name_user_info"
+            android:background="@drawable/input_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rojo_dark"
+            android:padding="10dp"
+            android:textColorHint="@color/rojo_dark"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_menu_user"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        />
+
+</RelativeLayout>

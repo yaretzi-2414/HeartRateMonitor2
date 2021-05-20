@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaConfirmacion">
+
+    <LinearLayout
+        android:layout_width="364dp"
+        android:layout_height="560dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="500dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_RegistrarConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/txt_ConfirmarRegistro"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                tools:text="@string/txt_ConfirmarRegistro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/btn_entendido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="irLogin"
+                android:text="@string/btn_entendido"
+                app:backgroundTint="@color/rojo_light"
+                tools:text="@string/btn_entendido" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "437828925071",
+    "firebase_url": "https://heart-rate-monitor-ef65a-default-rtdb.firebaseio.com",
+    "project_id": "heart-rate-monitor-ef65a",
+    "storage_bucket": "heart-rate-monitor-ef65a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437828925071:android:49daa0aedaa11ca35562fa",
+        "android_client_info": {
+          "package_name": "studio.anverso.heartratemonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437828925071-5k54ree8hon48jhk20ne8qisj99aeak7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPVoy2z7zSu4RRsZcYntq4P0l9TYIqa1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437828925071-5k54ree8hon48jhk20ne8qisj99aeak7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437828925071:android:549f7d408610e1d95562fa",
+        "android_client_info": {
+          "package_name": "studio.anverso.heartratemonitor2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437828925071-5k54ree8hon48jhk20ne8qisj99aeak7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPVoy2z7zSu4RRsZcYntq4P0l9TYIqa1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437828925071-5k54ree8hon48jhk20ne8qisj99aeak7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
